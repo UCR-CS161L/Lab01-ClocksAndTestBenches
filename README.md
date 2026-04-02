@@ -103,16 +103,13 @@ OK, now that we know what the tools are, let's talk about how to install and
 use them. Below is a table with links to install these applications for all the
 relavent platforms. Follow these directions from these links to install the tools.
 
-|Tool|Platform|Link|
-|----|--------|----|
-|Icarus Verilog| Windows  | [Link](https://bleyer.org/icarus/) |
-|              | Mac OS X | [Link](https://youtu.be/V7zlAAjid98) |
-|              | Linux    | [Link](https://iverilog.fandom.com/wiki/Installation_Guide) |
-|GTKwave       | Windows  | [Link](https://gtkwave.sourceforge.net/) |
-|              | Mac OS X | [Link](https://gtkwave.sourceforge.net/) |
-|              | Linux    | [Link](https://gtkwave.sourceforge.net/) |
-|Digital       | All      | [Link](https://github.com/hneemann/Digital/releases/latest/download/Digital.zip )|
+First, let's install OSS CAD Suite. It has a bunch of tools we can use for hardware
+design. Go to it's [GitHub Repository](https://github.com/yosyshq/oss-cad-suite-build?tab=readme-ov-file#installation).
+Go to the the link at the top of the page called "the releases page". Then follow the directions for your OS in that 
+section to get the tools working. For now we only need iverilog and gtkwave. Try running them from the command line
+after the installation is complete.
 
+Now install [Digital](https://github.com/hneemann/Digital/releases/latest/download/Digital.zip ).
 Digital requires that the Java Runtime Environment(JRE) be installed. You can 
 get directions for this runtime for Windows and Mac OS X 
 [here](https://www.java.com/en/download/manual.jsp). For Linux, you can go to 
