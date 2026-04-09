@@ -103,8 +103,6 @@ module lab01_tb;
         $display("Load (%d/%d): %0.2f", high_count, count, 1.0 * high_count / count);
         $display("Transition count: %d", transition_count);
         
-		// Add more tests here
-
         // Re-initialize counters for each test
         last_tick = 0;
         transition_count = 0;
@@ -113,6 +111,8 @@ module lab01_tb;
 
         // Copy the test case above at least 2 more times to test each unit under test
         // Be sure to change the expected counts to match the configuration of the UUT
+		// Add more tests here
+
 
         $finish;
     end
